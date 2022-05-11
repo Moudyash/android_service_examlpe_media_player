@@ -12,7 +12,7 @@ public class MyService extends Service {
 
     @Override
     public void onCreate() {
-        mp = MediaPlayer.create(this, R.raw.b);
+        mp = MediaPlayer.create(this, R.raw.a);
         super.onCreate();
     }
 
